@@ -1,2 +1,2 @@
 # tobytalks
-The backend for the Google Assistant Toby Talks Application.
+The backend for the Google Assistant Toby Talks application.
