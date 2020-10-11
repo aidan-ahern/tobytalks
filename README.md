@@ -14,6 +14,8 @@ Download app.py from this Git, ngrok, and uvicorn.
 
 Run ngrok:
 https://ngrok.com/download
+
 ./ngrok http 8080
+
 Run unvicorn:
 uvicorn --port 8080 app:app
