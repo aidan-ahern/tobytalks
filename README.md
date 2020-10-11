@@ -13,7 +13,7 @@ pydantic
 
 pip install fastapi uvicorn pydantic
 
-# Running the backend
+# Running the Python backend
 
 Download app.py from this Git, ngrok, and uvicorn.
 
@@ -23,6 +23,6 @@ https://ngrok.com/download
 
 ./ngrok http 8080
 
-Run unvicorn:
+Run unvicorn in the location of app.py:
 
 uvicorn --port 8080 app:app
