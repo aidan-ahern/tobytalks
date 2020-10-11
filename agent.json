@@ -1,0 +1,67 @@
+{
+  "description": "Allow your app to engage in small talk about a variety of topics.",
+  "language": "en",
+  "shortDescription": "",
+  "examples": "",
+  "linkToDocs": "",
+  "displayName": "TobyTalks_v1.0.1",
+  "activeAssistantAgents": [
+    "smalltalk-domain-on"
+  ],
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": true,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "project": "",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [
+      {
+        "intentId": "3a87d232-9419-47e6-a881-2737d38adbd8",
+        "signInRequired": false
+      }
+    ],
+    "systemIntents": [],
+    "endIntentIds": [],
+    "oAuthLinking": {
+      "required": false,
+      "providerId": "",
+      "authorizationUrl": "",
+      "tokenUrl": "",
+      "scopes": "",
+      "privacyPolicyUrl": "",
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "env": "",
+    "protocolVersion": "V2",
+    "autoPreviewEnabled": true,
+    "isDeviceAgent": false
+  },
+  "defaultTimezone": "America/New_York",
+  "webhook": {
+    "url": "https://89e57cd6af05.ngrok.io",
+    "username": "",
+    "headers": {},
+    "available": true,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": true
+  },
+  "isPrivate": false,
+  "mlMinConfidence": 0.6,
+  "supportedLanguages": [
+    "en-au",
+    "en-ca",
+    "en-gb",
+    "en-us"
+  ],
+  "enableOnePlatformApi": true,
+  "onePlatformApiVersion": "v2beta1",
+  "secondaryKey": "e5ab6d2386174b82993cbf78a3f7cdaf",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [],
+  "knowledgeServiceConfidenceAdjustment": 0.2,
+  "dialogBuilderMode": false,
+  "baseActionPackagesUrl": ""
+}
